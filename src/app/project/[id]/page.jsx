@@ -9,6 +9,7 @@ import DynamicProblem from '../../components/Problem';
 import DynamicSolution from '../../components/Solution';
 import DynamicConcept from '../../components/Concept';
 import { getProjectById, getAllProjectIds } from '../../lib/ProjectsData';
+import Footer from '@/app/components/Footer';
 
 // Generate static params for all projects (optional but recommended for performance)
 export async function generateStaticParams() {
@@ -49,6 +50,7 @@ export default function ProjectPage({ params }) {
       <DynamicProblem data={project.problem} />
       <DynamicSolution data={project.solution} />
       <DynamicConcept data={project.concept} />
+      <Footer />
     </div>
   );
 }

@@ -27,12 +27,12 @@ export const projectsData = [
     },
     solution: {
       title: "Solution",
-      description: "Inspired by the enigmatic allure of ravens and the sharp precision of technology, this project explores the balance between dark, sleek visuals and user-centric design.",
+      description: "The Smart Theatre Management System introduces a unified digital platform that transforms traditional theatre operations into a seamless, automated experience. By integrating ticketing, parking, and food services into one smart system, it eliminates physical queues, minimizes waiting times, and enhances overall customer convenience.",
       image: "/car.jpg"
     },
     concept: {
       title: "Concept",
-      description: "Inspired by the enigmatic allure of ravens and the sharp precision of technology, this project explores the balance between dark, sleek visuals and user-centric design.",
+      description: "The concept behind the Smart Theatre Management System is to merge entertainment with intelligent automation—creating a frictionless theatre experience driven by technology and convenience.",
       image: "/mrrr.jpg"
     }
   },
